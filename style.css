@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+#todolist {
+    width: 80vw;
+    text-align: center;
+    padding: 30px;
+}
+
+#new-todo {
+    width: 60%;
+}
+
+.new-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-text{
+    flex:1;
+    text-align:left;
+}
